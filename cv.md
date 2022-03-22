@@ -67,7 +67,9 @@ Checking the readiness of all data. Сode snippet.
 
 - Introduction to HTML / Learn CSS in the [Codeacademy](https://www.codecademy.com/) (completed)<br>
 - Frontend developer in [Netology](https://netology.ru/) (in progress) <br>
+![Diploma](/img/netology_diploma.png)
 - Creating queries in Microsoft SQL Server 2012 based on the training center [Specialist](https://www.specialist.ru/) (completed)<br>
+![Certificate](/img/specialist_certificate.png)
 
 *********
 
