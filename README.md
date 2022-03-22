@@ -1,1 +1,1 @@
-https://tstori.github.io/rsschool-cv/cv.md
+https://tstori.github.io/rsschool-cv/
