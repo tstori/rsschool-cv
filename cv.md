@@ -50,13 +50,13 @@ Checking the readiness of all data. Сode snippet.
     from PUBLIC_TEMP.sms_checks t
     where t.rep_id = in_rep_id;
 
-    public.logs_p.write_detail_log('v_all_row = ' || v_all_row
+    public.logs.write_detail_log('v_all_row = ' || v_all_row
                                     || chr(13) || chr(10) || 'v_checks_sys1 = '            || v_checks_sys1
                                     || chr(13) || chr(10) || 'v_checks_mnp_sys2 = '         || v_checks_mnp_sys2
                                     || chr(13) || chr(10) || 'v_checks_mnp_sys3 = '         || v_checks_mnp_sys3
                                     || chr(13) || chr(10) || 'v_checks_mnp_sys1_new_req = ' || v_checks_mnp_sys1_new_req
                                     || chr(13) || chr(10) || 'v_checks = '                || v_checks);
-    public.logs_p.write_detail_log('is_resend = ' || is_resend
+    public.logs.write_detail_log('is_resend = ' || is_resend
                                      || chr(13) || chr(10) || 'in_date = ' || to_char(in_date, 'yyyymmdd hh24miss')
                                      || chr(13) || chr(10) || 'v_snap_date = ' || to_char(v_snap_date, 'yyyymmdd hh24miss')
                                      || chr(13) || chr(10) || 'in_rep_id = ' || in_rep_id
