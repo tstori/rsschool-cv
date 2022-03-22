@@ -1,2 +1,1 @@
-# rsschool-cv
-Curriculum Vitae at RSSchool
+https://tstori.github.io/rsschool-cv/cv.md
